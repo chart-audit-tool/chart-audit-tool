@@ -15,6 +15,11 @@ class ChartAuditForm extends Component {
         window.print();
     }
 
+    refreshPage() {
+        window.location.reload();
+        window.scrollTo(0,0);
+    }
+
     render() {
         return (
             <div class="position">
@@ -51,6 +56,7 @@ class ChartAuditForm extends Component {
                     <br/>
                     <input type="submit" id="printPageButton" value="Print" /><br/><br/>
                 </form>
+                <button onClick={this.refreshPage}>Refresh Page</button><br/><br/>
             </div>
         );
     }
