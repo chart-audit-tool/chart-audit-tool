@@ -5,7 +5,7 @@ class Communication extends Component {
     render() {
         return (
             <div>
-                <h3>Communication</h3>
+                <h3 class="pageBreak">Communication</h3>
                 <p>Were there issues of communication or coordination of care?</p>
                 <input type="radio" id="yes5" name="communication" value="yes"></input>
                 <label htmlFor="yes5">Yes</label>

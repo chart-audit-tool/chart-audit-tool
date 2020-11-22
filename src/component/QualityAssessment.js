@@ -5,7 +5,7 @@ class QualityAssessment extends Component {
     render() {
         return (
             <div>
-                <h3 class="pageBreak">Quality Assessment/Improvement Process</h3>
+                <h3>Quality Assessment/Improvement Process</h3>
                 <p>Was this record submitted for review according to the facility's quality improvement process? Please briefly explain.</p>
                 <input type="radio" id="yes14" name="quality" value="Yes"></input>
                 <label htmlFor="yes14">Yes</label>
