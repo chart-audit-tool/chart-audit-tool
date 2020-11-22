@@ -16,7 +16,7 @@ class MaternalTransport extends Component {
                 <input type="radio" id="n/a" name="transport" value="N/A"></input>
                 <label htmlFor="n/a">N/A</label>
                 <br/>
-                <p class="pageBreak">If the adverse event occurred BEFORE transfer, was the transfer accomplished in an appropriate time frame? Please explain.</p>
+                <p>If the adverse event occurred BEFORE transfer, was the transfer accomplished in an appropriate time frame? Please explain.</p>
                 <input type="radio" id="yes11" name="transport1" value="Yes"></input>
                 <label htmlFor="yes11">Yes</label>
                 <br/>

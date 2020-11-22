@@ -56,7 +56,7 @@ class ChartAuditForm extends Component {
                     <br/>
                     <input type="submit" id="printPageButton" value="Print" /><br/><br/>
                 </form>
-                <button onClick={this.refreshPage}>Refresh Page</button><br/><br/>
+                <button id="printPageButton" onClick={this.refreshPage}>Refresh Page</button><br/><br/>
             </div>
         );
     }

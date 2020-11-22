@@ -5,7 +5,7 @@ class PoliciesAndProcedures extends Component {
     render() {
         return (
             <div>
-                <h3>Policies and Procedures/Protocols and Use of Other Services</h3>
+                <h3 class="pageBreak">Policies and Procedures/Protocols and Use of Other Services</h3>
                 <p>Related to the condition(s) for which the record was identified or the outcome(s), did the facility have a current policy, procedure, or protocol in place to address the condition(s) and/or outcome(s)?</p>
                 <input type="radio" id="yes1" name="policies" value="yes"></input>
                 <label htmlFor="yes1">Yes</label>
