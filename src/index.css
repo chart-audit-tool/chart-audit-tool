@@ -17,6 +17,12 @@ code {
   right: -20px;
 }
 
+.divider{
+  width:50px;
+  height:auto;
+  display:inline-block;
+}
+
 @media print {
   @page { margin: 0 !important; }
   body {

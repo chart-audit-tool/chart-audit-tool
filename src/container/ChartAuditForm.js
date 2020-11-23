@@ -54,9 +54,11 @@ class ChartAuditForm extends Component {
                     <MaternalTransport/>
                     <QualityAssessment/>
                     <br/>
-                    <input type="submit" id="printPageButton" value="Print" /><br/><br/>
+                    <input type="submit" id="printPageButton" value="Print" />
+                    <div class="divider"/>
+                    <button id="printPageButton" onClick={this.refreshPage}>Refresh Page</button><br/><br/>
                 </form>
-                <button id="printPageButton" onClick={this.refreshPage}>Refresh Page</button><br/><br/>
+                
             </div>
         );
     }
