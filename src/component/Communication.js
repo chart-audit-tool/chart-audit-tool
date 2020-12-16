@@ -14,7 +14,7 @@ class Communication extends Component {
                 <label htmlFor="no5">No</label>
                 <br/>
                 <p><i>Comments:</i></p>
-                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                <textarea id="comments" name="comments" rows="4" cols="150"></textarea>
                 <br/>
             </div>            
         )

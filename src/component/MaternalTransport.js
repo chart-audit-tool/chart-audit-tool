@@ -24,7 +24,7 @@ class MaternalTransport extends Component {
                 <label htmlFor="no11">No</label>
                 <br/>
                 <p><i>Comments:</i></p>
-                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                <textarea id="comments" name="comments" rows="4" cols="150"></textarea>
                 <br/>
                 <p class="pageBreak">Was the patient appropriately stabilized prior to transfer?</p>
                 <input type="radio" id="yes12" name="transport2" value="Yes"></input>
@@ -34,7 +34,7 @@ class MaternalTransport extends Component {
                 <label htmlFor="no12">No</label>
                 <br/>
                 <p><i>Comments:</i></p>
-                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                <textarea id="comments" name="comments" rows="4" cols="150"></textarea>
                 <br/>
                 <p>Was communication with the referring or accepting facility, as applicable, appropriately documented in the record?</p>
                 <input type="radio" id="yes13" name="transport3" value="Yes"></input>
@@ -44,7 +44,7 @@ class MaternalTransport extends Component {
                 <label htmlFor="no13">No</label>
                 <br/>
                 <p><i>Comments:</i></p>
-                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                <textarea id="comments" name="comments" rows="4" cols="150"></textarea>
                 <br/>
             </div>            
         )

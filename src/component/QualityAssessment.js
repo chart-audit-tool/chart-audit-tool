@@ -14,7 +14,7 @@ class QualityAssessment extends Component {
                 <label htmlFor="no14">No</label>
                 <br/>
                 <p><i>Comments:</i></p>
-                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                <textarea id="comments" name="comments" rows="4" cols="150"></textarea>
                 <br/>
                 <p>If submitted to review by the facility's quality improvement process, was documentation present and adequate? Please explain.</p>
                 <input type="radio" id="yes15" name="quality1" value="Yes"></input>
@@ -24,7 +24,7 @@ class QualityAssessment extends Component {
                 <label htmlFor="no15">No</label>
                 <br/>
                 <p><i>Comments:</i></p>
-                <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+                <textarea id="comments" name="comments" rows="4" cols="150"></textarea>
                 <br/>
             </div>            
         )
